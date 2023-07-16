@@ -9,7 +9,6 @@ This is a data mining project that aims to build an Airline Recommender System. 
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Dataset](#dataset)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
