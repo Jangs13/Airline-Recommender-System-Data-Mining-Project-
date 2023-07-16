@@ -29,7 +29,7 @@ The Airline Recommender System project utilizes data mining techniques to analyz
 
 ## Dataset
 
-The project utilizes a dataset sourced from [XYZ Airline Data Repository](link-to-dataset). The dataset contains anonymized customer information, including demographic data, travel history, and customer ratings.
+The project utilizes a dataset sourced from [Airline Data Repository](https://www.kaggle.com/datasets/arjhbholu/airline-dataset-mining). The dataset contains anonymized customer information, including demographic data, travel history, and customer ratings.
 
 ## Installation
 
