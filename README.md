@@ -1,7 +1,3 @@
-Certainly! Here's a suggestion for a GitHub README for your Airline Recommender System project:
-
----
-
 # Airline Recommender System
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
