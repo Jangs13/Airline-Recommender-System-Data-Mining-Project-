@@ -29,39 +29,71 @@ The Airline Recommender System project utilizes data mining techniques to analyz
 
 ## Dataset
 
-The project utilizes a dataset sourced from [Airline Data Repository](https://www.kaggle.com/datasets/arjhbholu/airline-dataset-mining). The dataset contains anonymized customer information, including demographic data, travel history, and customer ratings.
+The project utilizes a dataset from [Airline Data Repository](https://www.kaggle.com/datasets/arjhbholu/airline-dataset-mining). The dataset contains anonymized customer information, including demographic data, travel history, and customer ratings.
 
-## Installation
-
-To run the Airline Recommender System locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/YourUsername/Airline-Recommender-System.git
-   ```
-
-2. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. [Additional installation steps or dependencies, if any]
 
 ## Usage
 
-1. Preprocess the dataset and perform necessary feature engineering steps.
+### Data Cleaning
 
-2. Train the recommender system model using the prepared dataset.
+#### Outliers
 
-3. Deploy the trained model or use it for making recommendations.
+Outliers in the dataset were identified and handled using appropriate techniques to ensure data integrity.
 
-4. [Provide additional usage instructions if needed]
+#### Merging Similar Columns
+
+Similar columns were merged to improve data efficiency and reduce redundancy, preserving relevant information.
+
+### Data Visualization
+
+#### Correlation between Columns
+
+Visualizations were used to explore the correlations between different columns, providing insights into variable relationships.
+
+#### Multivariate Relations
+
+Visualizations were employed to analyze complex patterns and dependencies among multiple variables.
+
+### Logistic Regression
+
+Logistic Regression, a predictive modeling technique, was utilized to analyze the relationship between the target variable and various features, enabling predictions and conclusions.
+
+### K-Nearest Neighbors
+
+The K-Nearest Neighbors algorithm was used for classifying and recommending airlines based on similarity to other customers, providing personalized recommendations.
+
+### Association Rules Mining (Apriori Algorithm)
+
+The Apriori algorithm was employed to identify frequent item sets and generate association rules, revealing patterns and associations among different attributes.
+
+### Sentiment Analysis with Random Forest Classifier
+
+Sentiment analysis was performed using a Random Forest Classifier to assess customer satisfaction based on their reviews and sentiments.
+
 
 ## Results
 
-[Discuss the results and findings of your project. Highlight the performance of the recommender system and its effectiveness in providing personalized recommendations.]
+We have created a highly trained Airline Recommendation model to predict
+whether any customer would recommend a particular airline based on various
+different airline attributes.
+This would be helpful for other customers while booking an airline of their choice
+based on other customer ratings, as well as help airlines improve based on
+customer feedback.
+Based on the observations from the above-mentioned models, we concluded that:
+● The best airlines most people recommend and have a good overall rating
+are Aeroflot-Russian-airlines, BMI-British-midland-international,
+garuda-Indonesia, Korean-air, and royal-Brunei-airlines.
+● The airlines having least ratings are air-Canada-rouge, American-airline,
+frontier-airline, royal-air-Maroc, spirit-airline, Sunwing, and united-airline.
+● We saw that inflight entertainment had contributed very less to overall
+ratings and recommendations, so airlines should focus more on other
+features like seat comfort, cabin staff, and food beverages.
+● Passengers with an overall rating of 4 and below did not recommend the airline.
+● Based on the sentiment analysis, we can conclude that most people were happy
+with their airlines and would recommend them.
+● If the customer has traveled in the economy and business class, there is a high
+chance the customer would recommend the airline. Instead, if customers have
+traveled in first class and premium economy, they won’t recommend it.
 
 ## Contributing
 
@@ -72,9 +104,3 @@ Contributions to this project are welcome! If you encounter any issues or have s
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to customize the README according to your specific project details, including additional sections or modifying existing ones. Provide information on how to run the project, any notable results or findings, and guidelines for contributions.
-
-Remember to replace the placeholder information, such as the dataset link, installation steps, and repository URL, with the relevant details of your project.
-
-Good luck with your project, and I hope this README template helps you effectively showcase your Airline Recommender System on GitHub!
