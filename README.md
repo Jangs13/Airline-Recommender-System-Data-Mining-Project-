@@ -72,27 +72,36 @@ Sentiment analysis was performed using a Random Forest Classifier to assess cust
 
 ## Results
 
-We have created a highly trained Airline Recommendation model to predict
-whether any customer would recommend a particular airline based on various
-different airline attributes.
-This would be helpful for other customers while booking an airline of their choice
-based on other customer ratings, as well as help airlines improve based on
-customer feedback.
+We have created a highly trained Airline Recommendation model to predict whether customers would recommend a particular airline based on various airline attributes.
+
+This would be helpful for other customers while booking an airline of their choice based on other customer ratings, as well as help airlines improve based on customer feedback.
+
 Based on the observations from the above-mentioned models, we concluded that:
-● The best airlines most people recommend and have a good overall rating
-are Aeroflot-Russian-airlines, BMI-British-midland-international,
-garuda-Indonesia, Korean-air, and royal-Brunei-airlines.
-● The airlines having least ratings are air-Canada-rouge, American-airline,
-frontier-airline, royal-air-Maroc, spirit-airline, Sunwing, and united-airline.
-● We saw that inflight entertainment had contributed very less to overall
-ratings and recommendations, so airlines should focus more on other
-features like seat comfort, cabin staff, and food beverages.
-● Passengers with an overall rating of 4 and below did not recommend the airline.
-● Based on the sentiment analysis, we can conclude that most people were happy
-with their airlines and would recommend them.
-● If the customer has traveled in the economy and business class, there is a high
-chance the customer would recommend the airline. Instead, if customers have
-traveled in first class and premium economy, they won’t recommend it.
+
+- The best airlines most people recommend and have a good overall rating are:
+  - Aeroflot-Russian-airlines
+  - BMI-British-midland-international
+  - garuda-Indonesia
+  - Korean-air
+  - royal-Brunei-airlines
+
+- The airlines having the least ratings are:
+  - air-Canada-rouge
+  - American-airline
+  - frontier-airline
+  - royal-air-Maroc
+  - spirit-airline
+  - Sunwing
+  - united-airline
+
+- Inflight entertainment had a relatively low contribution to overall ratings and recommendations. Airlines should focus more on other features like seat comfort, cabin staff, and food and beverages.
+
+- Passengers with an overall rating of 4 and below did not recommend the airline.
+
+- Based on sentiment analysis, most people were happy with their airlines and would recommend them.
+
+- Customers who have traveled in the economy and business class are more likely to recommend the airline. However, customers who have traveled in first class and premium economy are less likely to recommend it.
+
 
 ## Contributing
 
