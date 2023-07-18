@@ -1,6 +1,5 @@
 # Airline Recommender System
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This is a data mining project that aims to build an Airline Recommender System. The system analyzes customer preferences and provides personalized recommendations for airlines based on their needs and preferences.
 
@@ -107,8 +106,4 @@ Based on the observations from the above-mentioned models, we concluded that:
 
 Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please submit a pull request. For major changes, please open an issue to discuss the proposed changes.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
